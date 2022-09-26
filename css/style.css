@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Mr+Dafoe&family=Nuosu+SIL&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,800;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,900&family=Sacramento&family=Tangerine:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    /* text-align: center;  */
+    min-height: 100vh;
+    background-color: #1565C0;
+}
+
+.wrapper{
+    /* height: 600px; */
+    width: 500px;
+    background-color: #E3F2FD;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.wrapper h1{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 15px;
+    border-bottom: 2.5px solid #BBDEFB;
+}
+
+.wrapper .content{
+    /* padding: 25px; */
+    margin: 25px 25px 35px;
+}
+
+.typing_input{
+    /* opacity: 0; */
+    z-index: -999;
+    position: absolute;
+}
+
+.content .inputs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.inputs input{
+    width: 58px;
+    height: 60px;
+    margin: 6px;
+    color: #1565C0;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 5px;
+    border: 1.5px solid #BBDEFB;
+}
+
+/* .inputs input:first-child{
+    margin-left: 0px;
+} */
+
+.content .details{
+    margin: 20px 0 25px;
+}
+
+.details p{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.content .reset_btn{
+    width: 100%;
+    padding: 12px 0;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    background-color: #1565C0;
+}
